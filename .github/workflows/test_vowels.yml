@@ -26,5 +26,5 @@ jobs:
     
     - name: Test the code with pytest
       run: | 
-        pytest --cov=vowels_eingabe --cov-fail-under=90 --cov-branch test_vowels_eingabe
+        pytest --cov=vowels_eingabe --cov-fail-under=90 --cov-branch Ronjas_Repository/
     
