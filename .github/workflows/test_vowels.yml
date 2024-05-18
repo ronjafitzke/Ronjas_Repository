@@ -26,5 +26,5 @@ jobs:
     
     - name: Test the code with pytest
       run: | 
-        pytest --cov=vowels_eingabe --cov-fail-under=90 --cov-branch "C:\Users\rofi2\PycharmProjects\objektorientiertes_programmieren\test_vowels_eingabe.py"
+        pytest --cov=vowels_eingabe --cov-fail-under=90 --cov-branch test_vowels_eingabe
     
